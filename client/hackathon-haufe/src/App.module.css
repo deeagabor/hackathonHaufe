@@ -1,0 +1,22 @@
+:root {
+  --dark-violet: #2c061f;
+  --dark-green: #374045;
+  --yellow: #d89216;
+  --lime: #e1d89f;
+}
+
+.appContainer {
+  height: 100vh;
+  background-color: var(--dark-violet);
+  display: flex;
+}
+
+.backgroundImage {
+  width: 50%;
+}
+
+.appContentContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}

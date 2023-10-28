@@ -1,0 +1,9 @@
+.scootersListContainer {
+  width: 100%;
+  height: 600px;
+  overflow: auto;
+  margin: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

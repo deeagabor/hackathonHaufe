@@ -1,0 +1,99 @@
+:root {
+  --dark-violet: #2c061f;
+  --dark-green: #374045;
+  --yellow: #d89216;
+  --lime: #e1d89f;
+  --white: #ffffff;
+}
+
+.appContainer {
+  height: 100vh;
+  width: auto;
+  background-color: var(--dark-violet);
+}
+
+.contentContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.addButton {
+  background-color: var(--lime);
+  color: black;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.formOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.form {
+  background-color: var(--yellow);
+  height: 250px;
+  width: 400px;
+  border-radius: 10px;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form span {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.scooterInput {
+  border: none;
+  height: 20px;
+  width: 250px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.addScooterButton {
+  background-color: var(--dark-violet);
+  color: var(--white);
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.closeFormButton {
+  background-color: transparent;
+  color: var(--white);
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.closeButtonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
